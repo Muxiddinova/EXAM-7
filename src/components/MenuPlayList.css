@@ -1,0 +1,32 @@
+.playListContainer {
+    padding: 16px;
+  }
+  
+  .nameContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .playListScroll {
+    margin-top: 16px;
+    max-height: 200px; 
+    overflow-y: auto;
+  }
+  
+  .playLists {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+  }
+  
+  .playLists i.list {
+    margin-right: 10px;
+  }
+  
+  .playLists i.trash {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
